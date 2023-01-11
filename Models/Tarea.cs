@@ -17,6 +17,7 @@ namespace HomeworkApi.Models
         public Prioridad Prioridad { get; set; }
         public DateTime FechaCreacion { get; set; }
         public string Estado { get; set; }
+        //espacio para la informacion de la categoria asignada solo es virtual mas no de base de datos
         public virtual Categoria Categoria { get; set; }
 
         //[NotMapped]
